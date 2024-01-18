@@ -10,6 +10,9 @@ In the project directory, you can run the project locally:
 ### Screenshot:
  ![image](https://github.com/samyak-max/Frontend-Assignment-TrueFoundry/assets/76250685/d4cff327-336d-4914-a58d-e1c89a7bace8)
 
+### Sample JSON:
+1. https://drive.google.com/file/d/19_E6dSDUbiDR31wNSSvUARHxh1HeT6L4/view?usp=sharing
+2. https://drive.google.com/file/d/19_E6dSDUbiDR31wNSSvUARHxh1HeT6L4/view?usp=sharing
 
 ### Tech Used: 
 React, Tailwind, TypeScript.
