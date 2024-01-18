@@ -31,6 +31,7 @@ function FormSelect({ label, placeholder, description, jsonKey, validate }: Form
         updateRequiredFields(jsonKey, validate.required || false);
     },[])
   return (
+    <>
     <div className="p-3 flex justify-between items-center">
         <div className="flex gap-1">
             <Label htmlFor={jsonKey}>{label}</Label>
@@ -54,8 +55,9 @@ function FormSelect({ label, placeholder, description, jsonKey, validate }: Form
             }
         </SelectContent>
         </Select>
-        <div className="text-sm mt-1 text-gray-600">{description}</div>
     </div>
+    <div className="text-sm mt-1 text-gray-600">{description}</div>
+    </>
   )
 }
 
