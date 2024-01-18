@@ -1,4 +1,4 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useEffect, useState } from "react";
 import { useFormIgnore } from "@/context/formIgnoreProvider";
 
@@ -14,7 +14,7 @@ type FormRadioProps = {
     label: string;
 }
 
-function FormRadio({validate, jsonKey, placeholder, description, label}: FormRadioProps) {
+function FormRadio({validate, jsonKey}: FormRadioProps) {
     const [tab, setTab] = useState<string>(validate.defaultValue);
     const {setValues} = useFormIgnore();
     

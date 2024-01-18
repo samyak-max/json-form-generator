@@ -15,7 +15,7 @@ type FormInputProps = {
     placeholder: string;
 }
 
-function FormSwitch({label, description, validate, jsonKey, placeholder}: FormInputProps) {
+function FormSwitch({label, description, validate, jsonKey}: FormInputProps) {
     const { addValue, updateRequiredFields } = useForm();
     
     const [checked, setChecked] = useState<boolean>(validate.defaultValue);

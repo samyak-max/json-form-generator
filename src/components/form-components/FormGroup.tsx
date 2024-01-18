@@ -17,7 +17,7 @@ type FormGroupProps = {
     }];
 }
 
-function FormGroup({ label, description, subParameters, placeholder, jsonKey }: FormGroupProps) {
+function FormGroup({ label, description, subParameters, jsonKey }: FormGroupProps) {
   return (
     <div className="p-3">
         <Label>{label}</Label>
